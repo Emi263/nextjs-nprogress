@@ -14,3 +14,38 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.header {
+  text-align: center;
+  color: blue;
+}
+ul {
+  text-align: center;
+  padding: 2rem;
+}
+
+ul li {
+  padding: 1rem;
+  list-style-type: none;
+}
+ul li a {
+  text-decoration: underline;
+  color: red;
+}
+button {
+  border: none;
+  text-align: center;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  border: 2px solid green;
+  border-radius: 10%;
+}
+button:hover {
+  transform: scale(0.9);
+  opacity: 0.96;
+}
+div.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
